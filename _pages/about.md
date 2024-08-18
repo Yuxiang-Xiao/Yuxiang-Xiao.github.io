@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Hi! I'm Yuxiang Xiao
+# subtitle: <a href='#'>
 
 profile:
   align: right
@@ -14,6 +14,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+Hi! I'm Yuxiang Xiao
 
 I’m currently a Master Student of Robotics at the National University of Singapore. My research interests are End2End Autonomous Driving with a focus on Multi-agent Reinforcement Learning.
 
@@ -21,4 +22,4 @@ These days I have the opportunity to conduct research on Multi-agent Reinforceme
 
 In July 2024, I graduated with a Bachelor's degree in Robotic Engineering from the South China University of Technology. During my undergraduate studies, I conducted research in Natural Language Processing and LLMs, specifically in Zero-shot Learning and Event Detection, under the supervision of [Prof. Ziqian Zeng](https://ziqianzeng.github.io/).
 
-<span style="color: #ff66b2;">I am looking for 26's Ph.D opportunities and Research Internship.</span>
+<span style="color: #a41034;">I am looking for 26's Ph.D opportunities and Research Internship.</span>
