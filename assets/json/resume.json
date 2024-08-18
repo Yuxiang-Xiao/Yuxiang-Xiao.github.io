@@ -13,9 +13,7 @@
       "area": "Robotics",
       "studyType": "Master",
       "startDate": "2024-08-05",
-      "endDate": "2025-12-31",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "endDate": "2025-12-31"
     },
     {
       "institution": "South China University of Technology",
@@ -24,23 +22,18 @@
       "area": "Robotic Engineering",
       "studyType": "Bachelor",
       "startDate": "2020-09-01",
-      "endDate": "2024-07-31",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "endDate": "2024-07-31"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Technical",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python(PyTorch)",
+        "Matlab",
+        "C/C++",
+        "LaTeX"
       ]
     }
   ],
@@ -54,20 +47,6 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
     }
   ]
 }
