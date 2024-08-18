@@ -46,7 +46,7 @@ rss_icon: false
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: false
 socials_in_search: false
 bib_search: false
@@ -111,7 +111,6 @@ scholar_userid: fFfXZ60AAAAJ # your Google Scholar ID
 
 contact_note: >
   The best way to contact me is through email at yuxiangxiao02 [at] gmail [dot] com.
-  # You can even add a little note about which of these is the best way to reach you.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
