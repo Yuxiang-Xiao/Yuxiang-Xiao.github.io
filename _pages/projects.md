@@ -9,57 +9,19 @@ display_categories: [research]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+<h2 class="year" >2023</h2>
+<!-- <br> -->
+<b>Instruction Finetuning of ChatGLM-6B with LORA</b><br>
+[Github Repo](https://github.com/Yuxiang-Xiao/Instruction-Finetuning-of-ChatGLM-6B-with-LORA)
+<p style="font-size: 3px !important"></p>
 
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+## 2022
+<b>Student Performance in Exams EDA and Regression</b><br>
+[Github Repo](https://github.com/Yuxiang-Xiao/DataAnalysisModeling-Student-Performance-in-Exams-EDA-and-Regression)
+<p style="font-size: 3px"></p>
+<b>Feature Detection and Matching<br>
+[Github Repo](https://github.com/Yuxiang-Xiao/MachineVision-Feature-Detection-and-Matching)
+<p style="font-size: 3px"></p>
+<b>Hybrid Images<br>
+[Github Repo](https://github.com/Yuxiang-Xiao/MachineVision-HybridImages)
+<p style="font-size: 3px"></p>
