@@ -4,7 +4,7 @@
     "email": "yuxiangxiao02 [AT] gmail [DOT] com",
     "Github": "https://github.com/Yuxiang-Xiao/",
     "LinkedIn": "https://www.linkedin.com/in/yuxiangxiao/"
- },
+  },
   "education": [
     {
       "institution": "National University of Singapore",
@@ -29,7 +29,7 @@
     {
       "name": "Technical",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["Python(PyTorch)","Matlab","C/C++","LaTeX"]
+      "keywords": ["Python(PyTorch)", "Matlab", "C/C++", "LaTeX"]
     }
   ],
   "languages": [
