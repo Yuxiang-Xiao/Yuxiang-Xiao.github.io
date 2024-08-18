@@ -3,6 +3,7 @@
 
 
 @article{li2023lightweight,
+  bibtex_show={true},
   abbr={Biomimetics},
   title={Lightweight soft robotic glove with whole-hand finger motion tracking for hand rehabilitation in virtual reality},
   author={Li, Fengguan and Chen, Jiahong and Zhou, Zhitao and Xie, Jiefeng and Gao, Zishu and Xiao, Yuxiang and Dai, Pei and Xu, Chanchan and Wang, Xiaojie and Zhou, Yitong},
@@ -24,6 +25,7 @@
 }
 
 @inproceedings{zeng-etal-2024-zero,
+    bibtex_show={true},
     abbr={LREC-COLING},
     title = "Zero-shot Event Detection Using a Textual Entailment Model as an Enhanced Annotator",
     author = "Zeng, Ziqian  and
@@ -49,16 +51,20 @@
     pages = "17851--17857",
     code={https://github.com/ZeroNLP/ZS_TE},
     abstract ={We treat the TE model as an annotator that can be enhanced. We propose to use TE models to annotate large-scale unlabeled text and use annotated data to finetune the TE model, yielding an improved TE model. Finally, the improved TE model is used for inference on the test set. To improve the efficiency, we propose to use keywords to filter out sentences with a low probability of expressing event(s). To improve the coverage of keywords, we expand limited number of seed keywords using WordNet, so that we can use the TE model to annotate unlabeled text efficiently. The experimental results show that our method can outperform other baselines by 15% on the ACE05 dataset.},
-    selected={true}
+    selected={true},
+    poster={/assets/pdf/Poster-COLING24.pdf},
+    slides={/assets/pdf/COLING2024_Slides.pdf}
 }
 
 @article{zhang2024genderalign,
+  bibtex_show={true},
   abbr={arXiv},
   title={GenderAlign: An Alignment Dataset for Mitigating Gender Bias in Large Language Models},
   author={Zhang, Tao and Zeng, Ziqian and Xiao, Yuxiang and Zhuang, Huiping and Chen, Cen and Foulds, James and Pan, Shimei},
   journal={arXiv preprint arXiv:2406.13925},
   year={2024},
   code={https://github.com/ZeroNLP/GenderAlign},
+  html = {https://arxiv.org/abs/2406.13925},
   abstract={Large Language Models (LLMs) are prone to generating content that exhibits gender biases, raising significant ethical concerns. Alignment, the process of fine-tuning LLMs to better align with desired behaviors, is recognized as an effective approach to mitigate gender biases. Although proprietary LLMs have made significant strides in mitigating gender bias, their alignment datasets are not publicly available. The commonly used and publicly available alignment dataset, HH-RLHF, still exhibits gender bias to some extent. There is a lack of publicly available alignment datasets specifically designed to address gender bias. Hence, we developed a new dataset named GenderAlign, aiming at mitigating a comprehensive set of gender biases in LLMs. This dataset comprises 8k single-turn dialogues, each paired with a "chosen" and a "rejected" response. Compared to the "rejected" responses, the "chosen" responses demonstrate lower levels of gender bias and higher quality. Furthermore, we categorized the gender biases in the "rejected" responses of GenderAlign into 4 principal categories. The experimental results show the effectiveness of GenderAlign in reducing gender bias in LLMs.},
   selected={true}
 }
