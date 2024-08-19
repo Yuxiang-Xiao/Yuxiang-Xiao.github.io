@@ -9,7 +9,7 @@ profile:
   image: photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-      <a href="yuxiangxiao02@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      <a href="yuxiangxiao02@gmail.com"><i class="fa-solid fa-envelope-2x"></i></a>
       <a href="https://scholar.google.com/citations?user=fFfXZ60AAAAJ&hl=en"><i class="ai ai-google-scholar-square ai-2x"></i></a>
       <a href="https://www.linkedin.com/in/yuxiangxiao"><i class="fa-brands fa-linkedin fa-2x"></i></a>
       <a href="https://github.com/Yuxiang-Xiao"><i class="fa-brands fa-square-github fa-2x"></i></a>
