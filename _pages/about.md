@@ -8,8 +8,7 @@ profile:
   align: right
   image: photo.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-  <p>Photo taken at the SCUT International Campus in Guangzhou, June 2024.</p>
+  more_info:
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -23,4 +22,4 @@ These days I have the opportunity to conduct research on Multi-agent Reinforceme
 
 In July 2024, I graduated with a Bachelor's degree in Robotic Engineering from the **South China University of Technology**. During my undergraduate studies, I conducted research in Natural Language Processing and LLMs, specifically in Zero-shot Learning and Event Detection, under the supervision of [Prof. Ziqian Zeng](https://ziqianzeng.github.io/).
 
-***I am looking for 26's Ph.D opportunities and Research Internship!***
+<span style="color: #a41034;">I am looking for 26's Ph.D opportunities and Research Internship.</span>
