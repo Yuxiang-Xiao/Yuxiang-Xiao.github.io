@@ -9,7 +9,8 @@ profile:
   image: photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Photo taken at the SCUT International Campus in Guangzhou, June 2024.</p>
+    <span style="font-size: smaller; font-style: italic;">Photo taken at the SCUT International Campus in Guangzhou, June 2024.</span>
+
 
 
 news: true # includes a list of news items
