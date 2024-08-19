@@ -8,7 +8,8 @@ profile:
   align: right
   image: photo.jpg
   image_circular: false # crops the image to make it circular
-  more_info:
+  more_info: >
+  <p>Photo taken at the SCUT International Campus in Guangzhou, June 2024.</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
