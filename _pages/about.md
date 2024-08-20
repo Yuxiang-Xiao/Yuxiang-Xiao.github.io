@@ -12,7 +12,6 @@ profile:
     <span style="font-size: smaller; font-style: italic;">Photo taken at the SCUT International Campus in Guangzhou, June 2024.</span>
 
 
-
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
