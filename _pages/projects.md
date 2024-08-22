@@ -20,6 +20,7 @@ horizontal: false
 ## 2022
 <b>Design and Manufacture of an Automatic Controlled Metal Trebuchet<br>
 [PDF](/assets/pdf/Design and Manufacture.pdf)&nbsp;|&nbsp;[VID](/assets/video/car.mp4)
+<p style="font-size: 3px"></p>
 <b>Student Performance in Exams EDA and Regression</b><br>
 [Github Repo](https://github.com/Yuxiang-Xiao/DataAnalysisModeling-Student-Performance-in-Exams-EDA-and-Regression)&nbsp;|&nbsp;[Slides](/assets/pdf/Pre-Student Performance in Exams EDA and Regression.pdf)
 <p style="font-size: 3px"></p>
