@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 title: Photos
 permalink: /photos/
@@ -12,7 +12,7 @@ nav_order: 4
   {% assign photos = site.static_files | where: "path", "/assets/images/photos/" %}
   {% for photo in photos.path %}
     <div class="photo-item">
-      <img src="{{ photo.name | remove: site.url }}" alt="{{ photo.name }}">
+      <img src=photo alt="{{ photo.name }}">
       <p>{{ photo.name | replace: '-', ' ' | replace: '.jpg', '' }}</p>
     </div>
   {% endfor %}
@@ -40,4 +40,4 @@ nav_order: 4
   font-size: 14px;
   color: #555;
 }
-</style>
+</style> -->
