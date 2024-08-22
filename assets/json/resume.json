@@ -32,6 +32,20 @@
       "keywords": ["Python(PyTorch)", "Matlab", "C/C++", "LaTeX"]
     }
   ],
+  "awards": [
+    {
+      "title": "Second Prize in APMCM Mathematical Modeling Competition",
+      "date": "2021-11-01",
+      "awarder": "Beijing Society of Image and Graphics, APMCM Organizing Committee",
+      "summary": "Topic: Construction of Ecological Conservation and Evaluation of Its Impact on Environment Based on Ecological Protection Model and Neural Network."
+    },
+    {
+      "title": "Provincial First Prize in China Undergraduate Mathematical Contest in Modeling",
+      "date": "2021-10-01",
+      "awarder": "China Society for Industrial and Applied Mathematics",
+      "summary": "Topic: Research on Raw Material Procurement and Transportation Plans for a Specified Manufacturing Enterprise Based on a Dynamic Programming Model."
+    }
+  ],
   "languages": [
     {
       "language": "Chinese",
