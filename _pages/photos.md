@@ -9,11 +9,11 @@ nav_order: 4
 
 <h1>Photo Gallery</h1>
 <div class="photo-gallery">
-  {% assign photos = site.static_files | where: "path", "/assets/images/photos" %}
+  {% assign photos = site.static_files | where: "directory", "/assets/images/photos/" %}
   {% for photo in photos %}
     <div class="photo-item">
-      <img src="{{ photo.path }}" alt="{{ photo.name }}">
-      <p>{{ photo.name | replace: '-', ' ' }}</p>
+      <img src="{{ site.baseurl }}/assets/images/photos/{{photo.name}}" alt="{{ photo.name }}">
+      <p>{{ photo.name | replace: '-', ' ' | replace: '.jpg', '' }}</p>
     </div>
   {% endfor %}
 </div>
