@@ -12,7 +12,7 @@ nav_order: 4
   {% assign photos = site.static_files | where: "path", "/assets/images/photos" %}
   {% for photo in photos %}
     <div class="photo-item">
-      <img src="{{ photo.path | prepend: site.baseurl }}" alt="{{ photo.name }}">
+      <img src="{{ site.baseurl }}{{ photo.path }}" alt="{{ photo.name }}">
       <p>{{ photo.name | replace: '-', ' ' }}</p>
     </div>
   {% endfor %}
