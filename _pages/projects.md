@@ -15,7 +15,7 @@ horizontal: false
 [Github Repo](https://github.com/Yuxiang-Xiao/Instruction-Finetuning-of-ChatGLM-6B-with-LORA)
 <p style="font-size: 3px !important"></p>
 <b>Exploring Soft Robotics: Principles and Insights</b><br>
-[](/assets/pdf/Soft%20Robotics.pdf)
+[PDF](/assets/pdf/Soft%20Robotics.pdf)
 <p style="font-size: 3px !important"></p>
 ## 2022
 <b>Student Performance in Exams EDA and Regression</b><br>
