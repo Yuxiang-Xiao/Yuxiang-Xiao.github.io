@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: default
 title: Photos
 permalink: /photos/
@@ -40,4 +40,4 @@ nav_order: 4
   font-size: 14px;
   color: #555;
 }
-</style>
+</style> -->
